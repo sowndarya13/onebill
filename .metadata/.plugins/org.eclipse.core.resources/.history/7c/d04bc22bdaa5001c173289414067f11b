@@ -1,0 +1,20 @@
+package com.tyss.corejava;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=20;
+		System.out.println(a);
+		System.out.println(a++);
+		System.out.println(--a);
+		int b=30;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		float a;
+	}
+
+}

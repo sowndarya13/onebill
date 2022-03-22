@@ -1,0 +1,18 @@
+package com.tys.updowncast;
+
+public class Group {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		User user=new Admin("sowndarya",8825583);//here object od admin is upcasted to superclass user.so it can access only base class members
+		user.chat();
+		user.share();
+		user.call();
+		Admin admin=(Admin)user;
+		admin.chat();
+		admin.call();
+		admin.share();
+		admin.addUser("Nivash");
+		admin.removeUser("sow");
+}
+}

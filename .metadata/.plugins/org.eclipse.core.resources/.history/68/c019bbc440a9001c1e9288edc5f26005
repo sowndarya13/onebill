@@ -1,0 +1,20 @@
+package com.tys.assignment;
+
+public class vehicle {
+	int speed;
+	String gasType;
+	vehicle()
+	{
+		
+	}
+	vehicle(int speed,String gasType)
+	{
+		this.speed=speed;
+		this.gasType=gasType;
+	}
+	public void brake()
+	{
+		System.out.println("stop....");
+	}
+
+}

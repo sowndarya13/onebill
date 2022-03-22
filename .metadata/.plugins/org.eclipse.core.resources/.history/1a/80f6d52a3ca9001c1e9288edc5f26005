@@ -1,0 +1,15 @@
+package com.tys.assignment;
+
+public class Bike extends vehicle {
+	
+	String vehicleType;
+	Bike(int wheels,int speed,String gasType,String vehicleType)
+	{
+		super(wheels,speed,gasType);
+		this.vehicleType=vehicleType;
+	}
+	
+	
+	
+
+}

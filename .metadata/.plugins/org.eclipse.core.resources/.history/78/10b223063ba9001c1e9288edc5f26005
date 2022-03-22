@@ -1,0 +1,19 @@
+package com.tys.assignment;
+
+public class vehicle {
+	int wheels,speed;
+	vehicle()
+	{
+		
+	}
+	vehicle(int wheels,int speed)
+	{
+		this.wheels=wheels;
+		this.speed=speed;
+	}
+	public void brake()
+	{
+		System.out.println("stop....");
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.tys.assignment;
+
+public class Ternary {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=100;
+        String i=(n%2==0)?"even":"odd";
+        System.out.println(i);
+
+	}
+
+}

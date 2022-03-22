@@ -1,0 +1,23 @@
+package com.tyss.corejava;
+
+public class VarTypes {
+	
+	static int a=7;
+	int b=13;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int b=5;
+		System.out.println("static\n");
+		System.out.println(VarTypes.a);
+		VarTypes v=new v();
+		System.out.println("instance\n");
+		System.out.println(v.b);
+		System.out.println("local\n");
+		System.out.println(b);
+		
+		
+
+	}
+
+}

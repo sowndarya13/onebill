@@ -1,0 +1,22 @@
+package com.tys.project;
+
+public class SmartPhone extends Phone {
+	double camera;
+	int camCount,rom;
+	SmartPhone(int r,int cC,double cam)
+	{
+		super();
+		camera=cam;
+		camCount=cC;
+		rom=r;
+	}
+	public void selfie()
+	{
+		System.out.println("smileee.....");
+	}
+	public void play()
+	{
+		System.out.println("playing pubg");
+	}
+
+}

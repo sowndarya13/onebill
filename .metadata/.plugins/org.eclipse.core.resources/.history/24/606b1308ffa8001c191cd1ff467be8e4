@@ -1,0 +1,28 @@
+package com.tys.project;
+
+public class SmartPhone extends Phone {
+	double camera;
+	int camCount,rom;
+	public SmartPhone()
+	{
+		
+	}
+	public SmartPhone(int r,int cC,double cam,int p,int ram)
+	{
+		//super();//this calls no argument cons in base class
+        super(p,ram);
+		camera=cam;
+		camCount=cC;
+		rom=r;
+		System.out.println("smartphone cons");
+	}
+	public void selfie()
+	{
+		System.out.println("smileee.....");
+	}
+	public void play()
+	{
+		System.out.println("playing pubg");
+	}
+
+}

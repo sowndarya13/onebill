@@ -1,0 +1,12 @@
+package com.tys.assignment;
+
+public class Wheeler extends vehicle {
+	int no_of_wheels;
+	int wheels;
+
+	Wheeler(int no_of_wheels, int speed, String gasType, String fuelType) {
+		super(speed, gasType);
+		this.no_of_wheels = no_of_wheels;
+	}
+
+}

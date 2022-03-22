@@ -1,0 +1,23 @@
+package com.tys.assignment;
+
+public class vehicle {
+	int speed;
+	String gasType;
+	int no_of_wheels,price;
+	vehicle()
+	{
+		
+	}
+	vehicle(int speed,String gasType,int no_of_wheels,int price)
+	{
+		this.speed=speed;
+		this.gasType=gasType;
+		this.no_of_wheels = no_of_wheels;
+		this.price=price;
+	}
+	public void brake()
+	{
+		System.out.println("stop....");
+	}
+
+}

@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package com.tys.project;
+
+public class Store {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Phone P=new Phone();
+		P.price=1999;
+		P.ram=4;
+		P.brand="NOKIA";
+		P.call();
+		P.message("hey...hi");
+		P.radio();
+		SmartPhone s=new SmartPhone();
+		s.price=100000;
+		s.brand="iphone";
+		s.ram=8;
+		s.rom=64;
+		s.camera=32;
+		s.camCount=4;
+		s.call();
+		s.message("are you there");
+		s.radio();
+		s.play();
+		s.selfie();
+	}
+
+}
