@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    #div{
+        padding-left:300px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Novell Services Login</h1>
+    <table border="2px solid black">
+        <tbody>
+      <tr>
+        <td>Name:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td><input type="password" /></td>
+      </tr>
+      <tr>
+        <td>City Of Employment:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>WEb server:</td>
+        <td>
+          <select name="please select">
+            <option>option1</option>
+            <option>option2</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+          <td>Please specify your role</td>
+          <td><input type="radio" name="role">Admin</input><br/>
+            <input type="radio" name="role">Engineer</input><br/>
+            <input type="radio" name="role">Manager</input><br/>
+            <input type="radio" name="role">Guest</input>
+        </td>
+      </tr>
+      <tr>
+          <td>Single sign-on to the following</td>
+          <td>
+              <input type="radio"  name="single">mail</input>
+              <input type="radio" name="single">Payroll</input>
+              <input type="radio"  name="single">self service</input>
+          </td>
+      </tr>
+    </tbody>
+    </table>
+    <div id="div">
+    <input type="submit"value=login>
+    <input type="submit" value="Reset">
+    </div>
+  </body>
+</html>
